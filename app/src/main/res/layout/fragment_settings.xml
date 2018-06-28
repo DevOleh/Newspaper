@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvLblDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/lbl_from_date"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="@dimen/article_title_text_size"
+        android:textStyle="bold"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/etDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:ems="10"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="@dimen/article_title_text_size"
+        android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/btn_from_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_date_update"
+        />
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/tvLblToDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/lbl_to_date"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="@dimen/article_title_text_size"
+        android:textStyle="bold"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/etToDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:ems="10"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="@dimen/article_title_text_size"
+        android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/btn_to_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_date_update"
+        />
+</LinearLayout>
+    <TextView
+        android:id="@+id/tvLblSortOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/lbl_sort_order"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="@dimen/article_title_text_size"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/sort_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="@dimen/article_title_text_size"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:onClick="onSaveClick"
+        android:text="@string/btn_save" />
+</LinearLayout>

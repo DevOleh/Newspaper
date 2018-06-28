@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ryasik.appnewsapi.Controller.ArticlesActivity">
+    <item
+        android:id="@+id/action_favorites"
+        android:title="@string/favorites_articles"
+        android:icon="@drawable/ic_favorites_white"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/action_filter"
+        android:title="@string/search_filter"
+        android:icon="@drawable/filter_white_24x24"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        />
+</menu>

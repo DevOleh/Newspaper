@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Newspaper</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="lbl_from_date">From Date</string>
+    <string name="lbl_to_date">To Date</string>
+    <string name="lbl_sort_order">Sort Order</string>
+    <string name="btn_save">Save</string>
+    <string name="search_filter">Filter</string>
+    <string name="favorites_articles">Favorites</string>
+
+</resources>
